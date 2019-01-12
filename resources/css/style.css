@@ -60,7 +60,8 @@ a.sidenav-trigger {
   color: #74243c;
 }
 a.active {
-  color: #d8bfd6 !important;
+  color: #795b7a !important;
+  font-weight: 600;
 
 }
 .ul-wrapper {
@@ -77,9 +78,10 @@ li.tab {
 }
 .tab {
   top: 22%;
-  border-right: 2px solid #d8bfd6;
+  border-right: 2px solid #795b7a;
   height: 50% !important;
   position: relative;
+  font-weight: 600;
 }
 
 .tab:last-child {
