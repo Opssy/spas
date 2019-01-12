@@ -76,13 +76,6 @@ li.tab {
 .tabs .tab {
   line-height: 28px !important;
 }
-.tab {
-  top: 22%;
-  border-right: 2px solid #795b7a;
-  height: 50% !important;
-  position: relative;
-  font-weight: 600;
-}
 .tabs {
   position: relative;
   overflow-x: hidden !important;
@@ -93,8 +86,25 @@ li.tab {
   white-space: nowrap;
 }
 
+.tab {
+  top: 22%;
+  border-right: 2px solid #795b7a;
+  height: 50% !important;
+  position: relative;
+  font-weight: 600;
+}
 
 .tab:last-child {
+  border-right: none;
+}
+.col.s12.m6.l3{
+  top: 22%;
+  border-right: 2px solid #f3f3f3;;
+  height: 100% !important;
+   position: relative;
+  /* font-weight: 600;  */
+}
+.col.s12.m6.l3:last-child{
   border-right: none;
 }
 .right {
