@@ -83,6 +83,16 @@ li.tab {
   position: relative;
   font-weight: 600;
 }
+.tabs {
+  position: relative;
+  overflow-x: hidden !important;
+  overflow-y: hidden;
+  height: 48px;
+  width: 100%;
+  margin: 0 auto;
+  white-space: nowrap;
+}
+
 
 .tab:last-child {
   border-right: none;
