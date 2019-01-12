@@ -72,6 +72,19 @@ li.tab {
   margin: 0px -90px 0 48px !important;
   padding-left: 36px!important;
 }
+.tabs .tab {
+  line-height: 28px !important;
+}
+.tab {
+  top: 22%;
+  border-right: 2px solid #d8bfd6;
+  height: 50% !important;
+  position: relative;
+}
+
+.tab:last-child {
+  border-right: none;
+}
 .right {
   margin-top: 18px;
   margin-right: 100px;
@@ -279,4 +292,16 @@ input.fsearch[type=text] {
   left: 45%;
   margin: -100px 0 0 -252px;
   background-color: #fff;
+}
+img.wee{
+    margin-top: 23px;
+    margin-left: 28px;
+    width: 30px;
+    color: grey;
+}
+h2.dec {
+  font-size: 12px;
+  margin-top: 4px;
+  margin-left: 12px;
+  color: rgb(108, 108, 108);
 }
