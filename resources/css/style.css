@@ -270,3 +270,13 @@ input.fsearch[type=text] {
   color: #9e9e9e !important;
   font-size: 12px;
 }
+.icon{
+  position: absolute;
+  width: 635px;
+  height: 139px;
+  z-index: 15;
+  top: 129%;
+  left: 45%;
+  margin: -100px 0 0 -252px;
+  background-color: #fff;
+}
